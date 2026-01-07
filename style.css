@@ -1,0 +1,99 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    color: #333;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    height: 70vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero .hero-text h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.btn-reserve {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 12px 24px;
+    background: #c0a080;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+.btn-reserve:hover {
+    background: #a08060;
+}
+
+
+section {
+    padding: 2rem;
+    margin: 0 2rem;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#menu .menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+#menu .menu-item {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #333;
+    color: #fff;
+}
